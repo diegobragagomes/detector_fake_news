@@ -11,3 +11,4 @@ datalake/modelo/final_model.pkl/bd657e6d-68ac-4f73-8ea3-cb281ef04c10/part.13 fil
 datalake/modelo/final_model.pkl/bd657e6d-68ac-4f73-8ea3-cb281ef04c10/part.14 filter=lfs diff=lfs merge=lfs -text
 datalake/modelo/final_model.pkl/bd657e6d-68ac-4f73-8ea3-cb281ef04c10/part.15 filter=lfs diff=lfs merge=lfs -text
 datalake/modelo/final_model.pkl/bd657e6d-68ac-4f73-8ea3-cb281ef04c10/* filter=lfs diff=lfs merge=lfs -text
+datalake/processado/etl_fakenews.parquet/d2452901-56b7-4da0-bb86-a2dda95a22e2/* filter=lfs diff=lfs merge=lfs -text
