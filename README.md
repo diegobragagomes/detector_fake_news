@@ -42,7 +42,7 @@ Com isso, combinei os dois modelos, através de um blend model. O modelo com mai
 
 Através desse projeto foi possível praticar e implementar conceitos importantes da Ciência e Engenharia de Dados e propor uma solução para um problema latente e recorrente do meio jornalístico e mídias sociais.
 
-Em relação a futuras melhoriais, destacaria a criação de um deploy utilizando o **Flask**, que permitisse fugir do problema do **Gradio**, que utilizando conjuntamente com o **PyCaret**, tem como determinação da classificaçaõ os Tópicos, que se torna zero intuitivo para o usuário. Além disso, a extensão da automatização do AutoML com o **Airflow** se mostra interessante.
+Em relação a futuras melhoriais, destacaria a criação de um deploy utilizando o **Flask**, que permitisse fugir do problema do **Gradio**, que utilizando conjuntamente com o **PyCaret**, tem como determinação da classificação os Tópicos, que se torna zero intuitivo para o usuário. Além disso, a extensão da automatização do AutoML com o **Airflow** se mostra interessante.
 
 
 
