@@ -24,6 +24,7 @@ Foram criadas Dags para serem empregadas pelo **Airflow**, nas quais elas liam o
 
 O principal ponto dessa etapa é a automatização da leitura e transoformação desses dados, como criação de colunas e junção dos dois arquivos, isso tudo sendo extraído e enviado ao MinIO para que pudesse ser armazenado no Data Lake e requisitado quando necessário.
 
+#
 **Etapa de NLP**
 
 Nessa etapa, utilizou-se o PyCaret para ler os dados do dataframe final e começar o pré-processamaneto, a partir do pycaret.nlp. Esse pré-processamento conta com a retirada de caracteres especiais e numéricos, a tokenização, o stemming e a lematização, retirando-se ainda as stopwords padrões da lingua inglesa. 
@@ -32,6 +33,7 @@ Seguindo-se, o PyCaret permite utilizar para a modelagem de NLP, as técnicas de
 
 Ao final, um dataframe contendo os tópicos e a coluna *Status* criada manualmente, que servirá como target, é gerado. Esse dataframe servirá como base para os modelos de classificação, sendo os tópicos as features numéricas que auxiliarão na determinação da classificação dos Status.
 
+#
 **Etapa de Classificação**
 
 Após a etapa de NLP, ainda utilizando o **PyCaret** foram realizadas comparações entre diversos modelos. Foram selecionados os modelos: **Extra Trees Classifier e Random Forest Classifier**. Essa escolha é devido aos dois possuírem os maiores valores de precisão. A precisão foi escolhida como métrica principal porque um Falso Positivo geraria um custo, em termos monetários ou informativos, muito maiores que um falso negativo.
