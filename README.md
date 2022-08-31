@@ -12,7 +12,7 @@ Para resolver esse problema foi construído uma solução completa para armazena
 
 A escolha do **Apache Airflow** foi devido ao seu poder de orquestração, uma automatização, dos processos de extração e pequenas transformações nos arquivos se mostrava interessante.
 
-Em relação ao **Docker e MinIO**, ambos serviram como ferramentas para a configuração ideal para auxiliar o manejo dos arquivos e sua orquestração. Um dando possibilidade do **MinIO*** e **Airflow** funcionarem de forma adequada, graças ao seu poder de compartimentalização, enquanto o outro foi responsável pela criação de um Data Lake, onde os arquivos ficaram dispostos e foram acionados nos momentos necessários.
+Em relação ao **Docker e MinIO**, ambos serviram como ferramentas para a configuração ideal para auxiliar o manejo dos arquivos e sua orquestração. Um dando possibilidade do **MinIO** e **Airflow** funcionarem de forma adequada, graças ao seu poder de compartimentalização, enquanto o outro foi responsável pela criação de um Data Lake, onde os arquivos ficaram dispostos e foram acionados nos momentos necessários.
 
 Para as etapas de análise e Machine Learning, utilizou-se extensamente as possibilidades das bibliotecas **Pandas**, passando pelo entendimento dos dados, através dos dataframes, transformações nesses dados. Houve, ainda, o uso do **PyCaret**, ferramenta interessante no que tange o AutoML (processos de machine learning mais automatizados), no qual pude comparar diversos algoritmos de machine learning de maneira bastante ágil e prática.
 
