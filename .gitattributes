@@ -1,3 +1,5 @@
 *.pkl filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.parquet filter=lfs diff=lfs merge=lfs -text
+datalake/bruto/Fake.csv/52561dba-bce7-4d5e-a74f-7583affe8906/part.1 filter=lfs diff=lfs merge=lfs -text
+datalake/bruto/True.csv/b2d2565c-4bfb-4351-8275-f9f061f704b2/part.1 filter=lfs diff=lfs merge=lfs -text
